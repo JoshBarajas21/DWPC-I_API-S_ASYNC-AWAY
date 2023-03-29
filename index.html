@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo JS</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Async/Await Final</title>
 </head>
 <body>
-    <div>
-        <h1 id="descripcion"></h1>
-        <img src="No-Image-Placeholder.png" alt="" id="Catimage">
-    </div>
-    <button onclick="getRandomCat()">Click fo get cats</button>
+    <header>
+        <nav class="menu">
+            <h1>Kitty Picture Aleatory</h1>
+            <hr>
+            <img src="images/R.png" alt="Kitty" title="Kitty Picture Aleatory">
+            <hr>
+            <h2>Luis Joshua Rocandio Barajas</h2>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <h1 id="descripcion"></h1>
+            <img src="images/No-Image-Placeholder.png" alt="Kitty" id="Catimage" title="Random Kitty">
+            <button id="btn" onclick="getRandomCat()"><span> CLICK FOR GET CATS </span></button>
+        </div>
+    </section>
     <script src="index.js"></script>
 </body>
 </html>
