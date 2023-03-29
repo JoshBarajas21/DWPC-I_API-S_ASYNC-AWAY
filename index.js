@@ -29,6 +29,7 @@ async function getRandomCat(){
                 randomCat.src = data.url;
                 document.getElementById('descripcion').textContent = "Gatito ha llegado 😺😸😻";
             } else{
+                randomCat.src("images/No-Image-Placeholder.png")
                 console.log('No se pudo')
             }
         })
